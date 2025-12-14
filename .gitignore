@@ -1,0 +1,38 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== DATASETS (DO NOT COMMIT) =====
+*.csv
+data/
+dataset/
+datasets/
+
+# ===== MODELS / CHECKPOINTS (DO NOT COMMIT) =====
+**/exported_model/
+**/Final_exported_model/
+**/NotGood_exported_model/
+**/results/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# ===== OUTPUTS =====
+logs/
+outputs/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
